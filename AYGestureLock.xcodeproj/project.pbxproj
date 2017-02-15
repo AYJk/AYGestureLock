@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A18FACB91E54267C00D27DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACB81E54267C00D27DB3 /* AppDelegate.swift */; };
+		A18FACBB1E54267C00D27DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACBA1E54267C00D27DB3 /* ViewController.swift */; };
+		A18FACBE1E54267C00D27DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18FACBC1E54267C00D27DB3 /* Main.storyboard */; };
+		A18FACC01E54267C00D27DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18FACBF1E54267C00D27DB3 /* Assets.xcassets */; };
+		A18FACC31E54267C00D27DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18FACC11E54267C00D27DB3 /* LaunchScreen.storyboard */; };
+		A18FACCE1E54267D00D27DB3 /* AYGestureLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACCD1E54267D00D27DB3 /* AYGestureLockTests.swift */; };
+		A18FACD91E54267D00D27DB3 /* AYGestureLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACD81E54267D00D27DB3 /* AYGestureLockUITests.swift */; };
+		A18FACE71E54271A00D27DB3 /* AYLockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACE61E54271A00D27DB3 /* AYLockItem.swift */; };
+		A18FACE91E54273400D27DB3 /* AYLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACE81E54273400D27DB3 /* AYLockView.swift */; };
+		A18FACEB1E5457CC00D27DB3 /* GestureLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACEA1E5457CC00D27DB3 /* GestureLockViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A18FACCA1E54267D00D27DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18FACAD1E54267C00D27DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A18FACB41E54267C00D27DB3;
+			remoteInfo = AYGestureLock;
+		};
+		A18FACD51E54267D00D27DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18FACAD1E54267C00D27DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A18FACB41E54267C00D27DB3;
+			remoteInfo = AYGestureLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A18FACB51E54267C00D27DB3 /* AYGestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYGestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18FACB81E54267C00D27DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A18FACBA1E54267C00D27DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A18FACBD1E54267C00D27DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A18FACBF1E54267C00D27DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A18FACC21E54267C00D27DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A18FACC41E54267C00D27DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18FACC91E54267D00D27DB3 /* AYGestureLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYGestureLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18FACCD1E54267D00D27DB3 /* AYGestureLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYGestureLockTests.swift; sourceTree = "<group>"; };
+		A18FACCF1E54267D00D27DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18FACD41E54267D00D27DB3 /* AYGestureLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYGestureLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18FACD81E54267D00D27DB3 /* AYGestureLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYGestureLockUITests.swift; sourceTree = "<group>"; };
+		A18FACDA1E54267D00D27DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18FACE61E54271A00D27DB3 /* AYLockItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYLockItem.swift; sourceTree = "<group>"; };
+		A18FACE81E54273400D27DB3 /* AYLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYLockView.swift; sourceTree = "<group>"; };
+		A18FACEA1E5457CC00D27DB3 /* GestureLockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureLockViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A18FACB21E54267C00D27DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18FACC61E54267D00D27DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18FACD11E54267D00D27DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A18FACAC1E54267C00D27DB3 = {
+			isa = PBXGroup;
+			children = (
+				A18FACB71E54267C00D27DB3 /* AYGestureLock */,
+				A18FACCC1E54267D00D27DB3 /* AYGestureLockTests */,
+				A18FACD71E54267D00D27DB3 /* AYGestureLockUITests */,
+				A18FACB61E54267C00D27DB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A18FACB61E54267C00D27DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18FACB51E54267C00D27DB3 /* AYGestureLock.app */,
+				A18FACC91E54267D00D27DB3 /* AYGestureLockTests.xctest */,
+				A18FACD41E54267D00D27DB3 /* AYGestureLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18FACB71E54267C00D27DB3 /* AYGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				A18FACEA1E5457CC00D27DB3 /* GestureLockViewController.swift */,
+				A18FACE81E54273400D27DB3 /* AYLockView.swift */,
+				A18FACE61E54271A00D27DB3 /* AYLockItem.swift */,
+				A18FACB81E54267C00D27DB3 /* AppDelegate.swift */,
+				A18FACBA1E54267C00D27DB3 /* ViewController.swift */,
+				A18FACBC1E54267C00D27DB3 /* Main.storyboard */,
+				A18FACBF1E54267C00D27DB3 /* Assets.xcassets */,
+				A18FACC11E54267C00D27DB3 /* LaunchScreen.storyboard */,
+				A18FACC41E54267C00D27DB3 /* Info.plist */,
+			);
+			path = AYGestureLock;
+			sourceTree = "<group>";
+		};
+		A18FACCC1E54267D00D27DB3 /* AYGestureLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A18FACCD1E54267D00D27DB3 /* AYGestureLockTests.swift */,
+				A18FACCF1E54267D00D27DB3 /* Info.plist */,
+			);
+			path = AYGestureLockTests;
+			sourceTree = "<group>";
+		};
+		A18FACD71E54267D00D27DB3 /* AYGestureLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A18FACD81E54267D00D27DB3 /* AYGestureLockUITests.swift */,
+				A18FACDA1E54267D00D27DB3 /* Info.plist */,
+			);
+			path = AYGestureLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A18FACB41E54267C00D27DB3 /* AYGestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18FACDD1E54267D00D27DB3 /* Build configuration list for PBXNativeTarget "AYGestureLock" */;
+			buildPhases = (
+				A18FACB11E54267C00D27DB3 /* Sources */,
+				A18FACB21E54267C00D27DB3 /* Frameworks */,
+				A18FACB31E54267C00D27DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYGestureLock;
+			productName = AYGestureLock;
+			productReference = A18FACB51E54267C00D27DB3 /* AYGestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A18FACC81E54267D00D27DB3 /* AYGestureLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18FACE01E54267D00D27DB3 /* Build configuration list for PBXNativeTarget "AYGestureLockTests" */;
+			buildPhases = (
+				A18FACC51E54267D00D27DB3 /* Sources */,
+				A18FACC61E54267D00D27DB3 /* Frameworks */,
+				A18FACC71E54267D00D27DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A18FACCB1E54267D00D27DB3 /* PBXTargetDependency */,
+			);
+			name = AYGestureLockTests;
+			productName = AYGestureLockTests;
+			productReference = A18FACC91E54267D00D27DB3 /* AYGestureLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A18FACD31E54267D00D27DB3 /* AYGestureLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18FACE31E54267D00D27DB3 /* Build configuration list for PBXNativeTarget "AYGestureLockUITests" */;
+			buildPhases = (
+				A18FACD01E54267D00D27DB3 /* Sources */,
+				A18FACD11E54267D00D27DB3 /* Frameworks */,
+				A18FACD21E54267D00D27DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A18FACD61E54267D00D27DB3 /* PBXTargetDependency */,
+			);
+			name = AYGestureLockUITests;
+			productName = AYGestureLockUITests;
+			productReference = A18FACD41E54267D00D27DB3 /* AYGestureLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A18FACAD1E54267C00D27DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ayjkdev;
+				TargetAttributes = {
+					A18FACB41E54267C00D27DB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V63C2B5NRE;
+						ProvisioningStyle = Automatic;
+					};
+					A18FACC81E54267D00D27DB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A18FACB41E54267C00D27DB3;
+					};
+					A18FACD31E54267D00D27DB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A18FACB41E54267C00D27DB3;
+					};
+				};
+			};
+			buildConfigurationList = A18FACB01E54267C00D27DB3 /* Build configuration list for PBXProject "AYGestureLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A18FACAC1E54267C00D27DB3;
+			productRefGroup = A18FACB61E54267C00D27DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A18FACB41E54267C00D27DB3 /* AYGestureLock */,
+				A18FACC81E54267D00D27DB3 /* AYGestureLockTests */,
+				A18FACD31E54267D00D27DB3 /* AYGestureLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A18FACB31E54267C00D27DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18FACC31E54267C00D27DB3 /* LaunchScreen.storyboard in Resources */,
+				A18FACC01E54267C00D27DB3 /* Assets.xcassets in Resources */,
+				A18FACBE1E54267C00D27DB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18FACC71E54267D00D27DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18FACD21E54267D00D27DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A18FACB11E54267C00D27DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18FACBB1E54267C00D27DB3 /* ViewController.swift in Sources */,
+				A18FACE91E54273400D27DB3 /* AYLockView.swift in Sources */,
+				A18FACE71E54271A00D27DB3 /* AYLockItem.swift in Sources */,
+				A18FACEB1E5457CC00D27DB3 /* GestureLockViewController.swift in Sources */,
+				A18FACB91E54267C00D27DB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18FACC51E54267D00D27DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18FACCE1E54267D00D27DB3 /* AYGestureLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18FACD01E54267D00D27DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18FACD91E54267D00D27DB3 /* AYGestureLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A18FACCB1E54267D00D27DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A18FACB41E54267C00D27DB3 /* AYGestureLock */;
+			targetProxy = A18FACCA1E54267D00D27DB3 /* PBXContainerItemProxy */;
+		};
+		A18FACD61E54267D00D27DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A18FACB41E54267C00D27DB3 /* AYGestureLock */;
+			targetProxy = A18FACD51E54267D00D27DB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A18FACBC1E54267C00D27DB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18FACBD1E54267C00D27DB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A18FACC11E54267C00D27DB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18FACC21E54267C00D27DB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A18FACDB1E54267D00D27DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A18FACDC1E54267D00D27DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A18FACDE1E54267D00D27DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V63C2B5NRE;
+				INFOPLIST_FILE = AYGestureLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjkdev.AYGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A18FACDF1E54267D00D27DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V63C2B5NRE;
+				INFOPLIST_FILE = AYGestureLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjkdev.AYGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A18FACE11E54267D00D27DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYGestureLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjkdev.AYGestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYGestureLock.app/AYGestureLock";
+			};
+			name = Debug;
+		};
+		A18FACE21E54267D00D27DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYGestureLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjkdev.AYGestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYGestureLock.app/AYGestureLock";
+			};
+			name = Release;
+		};
+		A18FACE41E54267D00D27DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AYGestureLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjkdev.AYGestureLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AYGestureLock;
+			};
+			name = Debug;
+		};
+		A18FACE51E54267D00D27DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AYGestureLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayjkdev.AYGestureLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AYGestureLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A18FACB01E54267C00D27DB3 /* Build configuration list for PBXProject "AYGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18FACDB1E54267D00D27DB3 /* Debug */,
+				A18FACDC1E54267D00D27DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18FACDD1E54267D00D27DB3 /* Build configuration list for PBXNativeTarget "AYGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18FACDE1E54267D00D27DB3 /* Debug */,
+				A18FACDF1E54267D00D27DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18FACE01E54267D00D27DB3 /* Build configuration list for PBXNativeTarget "AYGestureLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18FACE11E54267D00D27DB3 /* Debug */,
+				A18FACE21E54267D00D27DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18FACE31E54267D00D27DB3 /* Build configuration list for PBXNativeTarget "AYGestureLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18FACE41E54267D00D27DB3 /* Debug */,
+				A18FACE51E54267D00D27DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A18FACAD1E54267C00D27DB3 /* Project object */;
+}
