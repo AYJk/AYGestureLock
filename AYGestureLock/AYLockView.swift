@@ -49,7 +49,6 @@ class AYLockView: UIView {
                     if !self.selectedItems.contains(lockItem) {
                         self.selectedItems.append(lockItem)
                     }
-                    print(self.selectedItems)
                     self.reDrawItem(item: lockItem)
                 }
             }

@@ -17,6 +17,8 @@
 		A18FACE71E54271A00D27DB3 /* AYLockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACE61E54271A00D27DB3 /* AYLockItem.swift */; };
 		A18FACE91E54273400D27DB3 /* AYLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACE81E54273400D27DB3 /* AYLockView.swift */; };
 		A18FACEB1E5457CC00D27DB3 /* GestureLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACEA1E5457CC00D27DB3 /* GestureLockViewController.swift */; };
+		A18FACED1E545CAB00D27DB3 /* AYBreviaryLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACEC1E545CAB00D27DB3 /* AYBreviaryLockView.swift */; };
+		A18FACEF1E545CD400D27DB3 /* AYBreviaryLockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FACEE1E545CD400D27DB3 /* AYBreviaryLockItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A18FACE61E54271A00D27DB3 /* AYLockItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYLockItem.swift; sourceTree = "<group>"; };
 		A18FACE81E54273400D27DB3 /* AYLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYLockView.swift; sourceTree = "<group>"; };
 		A18FACEA1E5457CC00D27DB3 /* GestureLockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureLockViewController.swift; sourceTree = "<group>"; };
+		A18FACEC1E545CAB00D27DB3 /* AYBreviaryLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYBreviaryLockView.swift; sourceTree = "<group>"; };
+		A18FACEE1E545CD400D27DB3 /* AYBreviaryLockItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYBreviaryLockItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A18FACEA1E5457CC00D27DB3 /* GestureLockViewController.swift */,
 				A18FACE81E54273400D27DB3 /* AYLockView.swift */,
 				A18FACE61E54271A00D27DB3 /* AYLockItem.swift */,
+				A18FACEC1E545CAB00D27DB3 /* AYBreviaryLockView.swift */,
+				A18FACEE1E545CD400D27DB3 /* AYBreviaryLockItem.swift */,
 				A18FACB81E54267C00D27DB3 /* AppDelegate.swift */,
 				A18FACBA1E54267C00D27DB3 /* ViewController.swift */,
 				A18FACBC1E54267C00D27DB3 /* Main.storyboard */,
@@ -272,7 +278,9 @@
 				A18FACBB1E54267C00D27DB3 /* ViewController.swift in Sources */,
 				A18FACE91E54273400D27DB3 /* AYLockView.swift in Sources */,
 				A18FACE71E54271A00D27DB3 /* AYLockItem.swift in Sources */,
+				A18FACED1E545CAB00D27DB3 /* AYBreviaryLockView.swift in Sources */,
 				A18FACEB1E5457CC00D27DB3 /* GestureLockViewController.swift in Sources */,
+				A18FACEF1E545CD400D27DB3 /* AYBreviaryLockItem.swift in Sources */,
 				A18FACB91E54267C00D27DB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

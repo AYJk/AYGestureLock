@@ -33,8 +33,6 @@ class AYLockItem: UIView {
 
     override func draw(_ rect: CGRect) {
         super.draw(rect)
-        let context = UIGraphicsGetCurrentContext()
-        context?.setLineWidth(1.0)
         let color: UIColor?
         if self.isSelected {
             color = UIColor(red: 255.0 / 255, green: 76.0 / 255, blue: 78.0 / 255, alpha: 1.0)
