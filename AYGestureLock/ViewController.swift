@@ -13,12 +13,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        
-        
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.present(GestureLockViewController(), animated: true, completion: nil)
+    @IBAction func setGestureLockPassword(_ sender: UIButton) {
+        let gestVc = GestureLockViewController()
+        gestVc.currentLockType = .set
+        self.present(gestVc, animated: true, completion: nil)
+    }
+    
+    @IBAction func modifyGesturePassword(_ sender: UIButton) {
+        let gestVc = GestureLockViewController()
+        gestVc.currentLockType = .moodify
+        self.present(gestVc, animated: true, completion: nil)
+    }
+    
+    @IBAction func verificationGesturePassword(_ sender: UIButton) {
+        let gestVc = GestureLockViewController()
+        gestVc.currentLockType = .verfication
+        self.present(gestVc, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
